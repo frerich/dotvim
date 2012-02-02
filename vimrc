@@ -88,3 +88,9 @@ set viminfo+=%
 " positioning).
 autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
+" Make <leader>b quickly switch buffers
+nnoremap <leader>b :ls <CR>:b<space>
+
+" Make 'ci(' automatically add trailing/leading spaces
+onoremap i( i(  <left>
+
