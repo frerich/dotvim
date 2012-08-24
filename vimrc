@@ -40,7 +40,7 @@ set scrolloff=3
 
 " Search case insensitive by default, but switch to case sensitive in case
 " the search term contains uppercase characters.
-set ignorecase ignorecase
+set ignorecase smartcase
 
 " I don't understand what this does, but I don't dare removing it because I'm
 " afraid it remove something I got so used to that I don't even recognize it
