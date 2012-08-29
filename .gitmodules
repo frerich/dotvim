@@ -16,3 +16,6 @@
 [submodule "bundle/a"]
 	path = bundle/a
 	url = git://github.com/vim-scripts/a.vim.git
+[submodule "bundle/actionscript"]
+	path = bundle/actionscript
+	url = git://github.com/vim-scripts/actionscript.vim--Leider.git
