@@ -53,6 +53,9 @@ set ruler statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 " Highlight *.docbook files using docbkxml
 au BufNewFile,BufRead *.docbook        setfiletype docbkxml
 
+" Treat *.as files as ActionScript
+au BufNewFile,BufRead *.as             set filetype=actionscript
+
 " When running mvim/gvim, show a nice big window with pleasant colors.
 if has( "gui_running" )
     set columns=100
