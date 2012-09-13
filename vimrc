@@ -99,3 +99,7 @@ nnoremap <leader>b :ls <CR>:b<space>
 " Make 'ci(' automatically add trailing/leading spaces
 onoremap i( i(  <left>
 
+" Make ",cd" change the working directory to the directory of the file being
+" edited; also print the new working directory after changing.
+nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
+
