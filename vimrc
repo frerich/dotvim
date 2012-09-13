@@ -64,6 +64,8 @@ if has( "gui_running" )
     set encoding=utf-8
     colorscheme solarized
     set background=light
+else
+    colorscheme darkblue
 endif
 
 " Use F9 to grep files for word under the cursor
