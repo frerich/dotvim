@@ -72,7 +72,7 @@ endif
 nnoremap <silent> <F9> :Rfindstring<CR>
 
 " Use these source extensions when searching for strings
-let Findstr_Default_Filelist = '*.cpp *.c *.h *.asm *.cs *.mm *.java *.docbook *.tcl *.py *.js *.pl *.xml *.xsd .xsl *.ui *.qml'
+let Findstr_Default_Filelist = '*.cpp *.c *.h *.asm *.cs *.mm *.java *.docbook *.tcl *.py *.js *.pl *.xml *.xsd .xsl *.ui *.qml *.as'
 
 " Don't consider colon as part of file name, helps with 'CTRL-W f' on findstr
 " output
