@@ -103,3 +103,6 @@ onoremap i( i(  <left>
 " edited; also print the new working directory after changing.
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
+" A little shortcut to stage the currently edited file, uses vim-fugitive
+command Gadd Git add %:p
+
