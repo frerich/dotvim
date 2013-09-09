@@ -6,7 +6,7 @@
 	url = git://github.com/tpope/vim-fugitive.git
 [submodule "vim-pathogen"]
 	path = vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/findstr"]
 	path = bundle/findstr
 	url = git://github.com/vim-scripts/findstr.vim.git
@@ -18,7 +18,7 @@
 	url = git://github.com/vim-scripts/actionscript.vim--Leider.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim
+	url = git://github.com/kien/ctrlp.vim
 [submodule "bundle\\matchit"]
 	path = bundle\\matchit
 	url = https://github.com/vim-scripts/matchit.zip
