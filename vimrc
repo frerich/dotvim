@@ -89,9 +89,16 @@ filetype plugin indent on
 " I forgot what this does
 set viminfo+=%
 
-" Let's start at the first line for git commits (overrides vim's memorized
-" positioning).
-autocmd FileType gitcommit call setpos('.', [0, 1, 1, 0])
+function SetGitCommitOptions()
+    " Let's start at the first line for git commits (overrides vim's memorized
+    " positioning).
+    setpos('.', [0, 1, 1, 0])
+
+    " Disable cindent for this particular case because it makes '(' start
+    " an indented block which I don't want.
+    set nocindent
+endfunction
+autocmd FileType gitcommit call SetGitCommitOptions()
 
 " Make <leader>b quickly switch buffers
 nnoremap <leader>b :ls <CR>:b<space>
