@@ -29,7 +29,7 @@ set expandtab
 set incsearch hlsearch
 
 " Visualize tabs (I don't like them) and trailing space
-set list listchars=tab:·\ ,trail:·
+set list listchars=tab:·\ ,trail:·,extends:>,precedes:<
 
 " Show a colored column in column 80, to indicate where other people start
 " to whine. Don't use this with MacVim
