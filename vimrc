@@ -92,7 +92,7 @@ set viminfo+=%
 function SetGitCommitOptions()
     " Let's start at the first line for git commits (overrides vim's memorized
     " positioning).
-    setpos('.', [0, 1, 1, 0])
+    call setpos('.', [0, 1, 1, 0])
 
     " Disable cindent for this particular case because it makes '(' start
     " an indented block which I don't want.
