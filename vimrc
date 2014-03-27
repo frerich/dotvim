@@ -56,6 +56,10 @@ au BufNewFile,BufRead *.docbook        setfiletype docbkxml
 " Treat *.as files as ActionScript
 au BufNewFile,BufRead *.as             set filetype=actionscript
 
+if has("win32")
+    set directory=%TEMP%
+endif
+
 " When running mvim/gvim, show a nice big window with pleasant colors.
 if has( "gui_running" )
     set columns=100
