@@ -4,6 +4,10 @@ call pathogen#infect()
 " Enable syntax highlighting
 syntax on
 
+" Only highlight syntax up to a certain column, improves responsiveness for files
+" with very long lines
+set synmaxcol=120
+
 " Make pressing backspace at the beginning of the line go to the
 " previous line
 set backspace=indent,eol,start
