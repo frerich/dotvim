@@ -121,3 +121,8 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 " A little shortcut to stage the currently edited file, uses vim-fugitive
 command Gadd Git add %:p
 
+" Show the list of errors detected by Syntastic automatically, but only
+" 3 lines.
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 3
+

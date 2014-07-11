@@ -25,3 +25,6 @@
 [submodule "bundle/vim-haskellConceal"]
 	path = bundle/vim-haskellConceal
 	url = https://github.com/Twinside/vim-haskellConceal.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
