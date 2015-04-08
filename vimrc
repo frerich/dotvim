@@ -126,6 +126,9 @@ command Gadd Git add %:p
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_loc_list_height = 3
 
+" Let Syntastic be picky for Haskell code.
+let g:syntastic_haskell_hdevtools_args = '-g-Wall'
+
 function SetHaskellOptions()
     " Make \t show the type of the expression under the cursor
     nnoremap <buffer> <leader>t :HdevtoolsType<CR>
