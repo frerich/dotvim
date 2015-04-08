@@ -129,6 +129,10 @@ let g:syntastic_loc_list_height = 3
 " Let Syntastic be picky for Haskell code.
 let g:syntastic_haskell_hdevtools_args = '-g-Wall'
 
+" Disable Syntastic for C++ files, it always complains about not being able
+" to find header files.
+let g:syntastic_cpp_checkers = ['']
+
 function SetHaskellOptions()
     " Make \t show the type of the expression under the cursor
     nnoremap <buffer> <leader>t :HdevtoolsType<CR>
