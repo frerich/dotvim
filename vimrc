@@ -121,6 +121,10 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 " A little shortcut to stage the currently edited file, uses vim-fugitive
 command Gadd Git add %:p
 
+" A shortcut to Ggrep which is less noisy and opens the quickfix list right
+" away
+command -nargs=+ Ggr execute 'silent Ggrep!' <q-args> | cw | redraw!
+
 " Show the list of errors detected by Syntastic automatically, but only
 " 3 lines.
 let g:syntastic_auto_loc_list = 1
