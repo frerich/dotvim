@@ -122,8 +122,9 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 command Gadd Git add %:p
 
 " A shortcut to Ggrep which is less noisy and opens the quickfix list right
-" away
+" away. <leader>g can be used on a word to invoke it.
 command -nargs=+ Ggr execute 'silent Ggrep!' <q-args> | cw | redraw!
+nnoremap <leader>g :Ggr <cword><CR>
 
 " Show the list of errors detected by Syntastic automatically, but only
 " 3 lines.
