@@ -126,6 +126,9 @@ command Gadd Git add %:p
 command -nargs=+ Ggr execute 'silent Ggrep!' <q-args> | cw | redraw!
 nnoremap <leader>g :Ggr <cword><CR>
 
+" Enable support for modelines
+set modeline
+
 " Show the list of errors detected by Syntastic automatically, but only
 " 3 lines.
 let g:syntastic_auto_loc_list = 1
