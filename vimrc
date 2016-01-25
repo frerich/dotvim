@@ -128,6 +128,7 @@ nnoremap <leader>g :Ggr <cword><CR>
 
 " Enable support for modelines
 set modeline
+set modelines=5
 
 " Show the list of errors detected by Syntastic automatically, but only
 " 3 lines.
