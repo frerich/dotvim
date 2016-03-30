@@ -142,6 +142,9 @@ let g:syntastic_haskell_hdevtools_args = '-g-Wall'
 " to find header files.
 let g:syntastic_cpp_checkers = ['']
 
+" Disable a couple of annoying Python-specific warnings
+let g:syntastic_python_pylint_args='-d C0111,C0103,C0301'
+
 function SetHaskellOptions()
     " Make \t show the type of the expression under the cursor
     nnoremap <buffer> <leader>t :HdevtoolsType<CR>
