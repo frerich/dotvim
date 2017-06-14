@@ -60,6 +60,11 @@ au BufNewFile,BufRead *.docbook        setfiletype docbkxml
 " Treat *.as files as ActionScript
 au BufNewFile,BufRead *.as             set filetype=actionscript
 
+" Highlight Squish Build files as JavaScript
+au BufNewFile,BufRead configure.cos    set filetype=javascript
+au BufNewFile,BufRead Buildfile        set filetype=javascript
+au BufNewFile,BufRead Buildsub         set filetype=javascript
+
 if has("win32")
     set directory=%TEMP%
 endif
