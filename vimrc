@@ -150,6 +150,12 @@ let g:syntastic_cpp_checkers = ['']
 " Disable a couple of annoying Python-specific warnings
 let g:syntastic_python_pylint_args='-d C0111,C0103,C0301'
 
+" Remove unneeded netrw banner
+let g:netrw_banner = 0
+
+" Browse files in netrw as a 'thin' list
+let g:netrw_liststyle = 0
+
 function SetHaskellOptions()
     " Make \t show the type of the expression under the cursor
     nnoremap <buffer> <leader>t :HdevtoolsType<CR>
