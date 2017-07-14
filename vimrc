@@ -1,6 +1,3 @@
-" Enable Pathogen, so that we can use color schemes installed via Pathogen
-call pathogen#infect()
-
 " Enable syntax highlighting
 syntax on
 
