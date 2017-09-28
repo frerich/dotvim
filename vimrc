@@ -70,7 +70,11 @@ endif
 if has( "gui_running" )
     set columns=100
     set lines=60
-    set guifont=DejaVu_Sans_Mono:h9
+    if has( "win32")
+        set guifont=Lucida_Console:h10
+    else
+        set guifont=DejaVu_Sans_Mono:h9
+    endif
     set encoding=utf-8
     colorscheme solarized
     set background=light
