@@ -54,6 +54,9 @@ set ruler statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 " Highlight *.docbook files using docbkxml
 au BufNewFile,BufRead *.docbook        setfiletype docbkxml
 
+" Highlight Jenkins 'Jenkinsfile' scripts as Groovy
+au BufNewFile,BufRead Jenkinsfile      setfiletype groovy
+
 " Treat *.as files as ActionScript
 au BufNewFile,BufRead *.as             set filetype=actionscript
 
