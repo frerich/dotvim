@@ -4,9 +4,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = pack/vim-fugitive/start/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "bundle/findstr"]
-	path = pack/findstr/start/findstr
-	url = git://github.com/vim-scripts/findstr.vim.git
 [submodule "bundle/a"]
 	path = pack/a/start/a
 	url = git://github.com/vim-scripts/a.vim.git
