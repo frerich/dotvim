@@ -144,9 +144,6 @@ set modelines=5
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_loc_list_height = 3
 
-" Let Syntastic be picky for Haskell code.
-let g:syntastic_haskell_hdevtools_args = '-g-Wall'
-
 " Disable Syntastic for C++ files, it always complains about not being able
 " to find header files.
 let g:syntastic_cpp_checkers = ['']
@@ -160,11 +157,3 @@ let g:netrw_banner = 0
 " Browse files in netrw as a 'thin' list
 let g:netrw_liststyle = 0
 
-function SetHaskellOptions()
-    " Make \t show the type of the expression under the cursor
-    nnoremap <buffer> <leader>t :HdevtoolsType<CR>
-
-    " Make \c clear the type match
-    nnoremap <buffer> <leader>c :HdevtoolsClear<CR>
-endfunction
-autocmd FileType haskell call SetHaskellOptions()
