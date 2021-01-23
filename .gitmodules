@@ -25,3 +25,6 @@
 [submodule "bundle/vim-vinegar"]
 	path = pack/vim-vinegar/start/vim-vinegar
 	url = git://github.com/tpope/vim-vinegar.git
+[submodule "pack/vim-elixir/start/vim-elixir"]
+	path = pack/vim-elixir/start/vim-elixir
+	url = git://github.com/elixir-editors/vim-elixir.git
