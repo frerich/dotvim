@@ -147,3 +147,4 @@ let g:netrw_banner = 0
 " Browse files in netrw as a 'thin' list
 let g:netrw_liststyle = 0
 
+let g:syntastic_rust_checkers = ['cargo']
