@@ -60,6 +60,10 @@ au BufNewFile,BufRead Jenkinsfile      setfiletype groovy
 " Treat *.as files as ActionScript
 au BufNewFile,BufRead *.as             set filetype=actionscript
 
+" Treat *.html.eex and .html.heex files (Phoenix templates) as HTML
+au BufNewFile,BufRead *.html.eex       set filetype=html
+au BufNewFile,BufRead *.html.heex      set filetype=html
+
 " Highlight Squish Build files as JavaScript
 au BufNewFile,BufRead configure.cos    set filetype=javascript
 au BufNewFile,BufRead Buildfile        set filetype=javascript
@@ -81,8 +85,6 @@ if has( "gui_running" )
     set encoding=utf-8
     colorscheme solarized
     set background=light
-else
-    colorscheme darkblue
 endif
 
 " Make 'gf' open the file under the cursor. Useful when walking include files.
