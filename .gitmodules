@@ -28,3 +28,6 @@
 [submodule "pack/vim-elixir/start/vim-elixir"]
 	path = pack/vim-elixir/start/vim-elixir
 	url = git://github.com/elixir-editors/vim-elixir.git
+[submodule "pack/ale"]
+	path = pack/ale
+	url = https://github.com/dense-analysis/ale.git
