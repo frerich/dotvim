@@ -13,9 +13,6 @@
 [submodule "bundle/ctrlp"]
 	path = pack/ctrlp/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "bundle/matchit"]
-	path = pack/matchit/start/matchit
-	url = https://github.com/vim-scripts/matchit
 [submodule "bundle/syntastic"]
 	path = pack/syntastic/start/syntastic
 	url = https://github.com/scrooloose/syntastic
