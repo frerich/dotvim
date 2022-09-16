@@ -1,33 +1,33 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = pack/vim-colors-solarized/start/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized
 [submodule "bundle/vim-fugitive"]
 	path = pack/vim-fugitive/start/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive
 [submodule "bundle/a"]
 	path = pack/a/start/a
-	url = git://github.com/vim-scripts/a.vim.git
+	url = https://github.com/vim-scripts/a.vim
 [submodule "bundle/actionscript"]
 	path = pack/actionscript/start/actionscript
-	url = git://github.com/vim-scripts/actionscript.vim--Leider.git
+	url = https://github.com/vim-scripts/actionscript.vim--Leider
 [submodule "bundle/ctrlp"]
 	path = pack/ctrlp/start/ctrlp
-	url = git://github.com/kien/ctrlp.vim
+	url = https://github.com/kien/ctrlp
 [submodule "bundle/matchit"]
 	path = pack/matchit/start/matchit
-	url = git://github.com/vim-scripts/matchit.zip
+	url = https://github.com/vim-scripts/matchit
 [submodule "bundle/syntastic"]
 	path = pack/syntastic/start/syntastic
 	url = https://github.com/scrooloose/syntastic
 [submodule "bundle/vim-ansible-yaml"]
 	path = pack/vim-ansible-yaml/start/vim-ansible-yaml
-	url = git://github.com/chase/vim-ansible-yaml.git
+	url = https://github.com/chase/vim-ansible-yaml
 [submodule "bundle/vim-vinegar"]
 	path = pack/vim-vinegar/start/vim-vinegar
-	url = git://github.com/tpope/vim-vinegar.git
+	url = https://github.com/tpope/vim-vinegar
 [submodule "pack/vim-elixir/start/vim-elixir"]
 	path = pack/vim-elixir/start/vim-elixir
-	url = git://github.com/elixir-editors/vim-elixir.git
+	url = https://github.com/elixir-editors/vim-elixir
 [submodule "pack/ale"]
 	path = pack/ale
 	url = https://github.com/dense-analysis/ale.git
