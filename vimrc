@@ -147,3 +147,7 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 0
 
 let g:syntastic_rust_checkers = ['cargo']
+
+" Enable Vim's built-in 'matchit' plugin so I can use '%' to jump between
+" beginning/end of blocks.
+packadd! matchit
